@@ -1,0 +1,36 @@
+body{
+    background-color:#eaebeb;
+    margin: auto;
+    padding: auto;
+    font-family:monospace;
+    
+        
+}
+.main{
+    margin: 5px;
+    padding: 5px;
+}
+h1{
+    text-align: center
+}
+.r_table,tr,td,label{
+    text-align: right;
+    font-size: 15px;
+    padding: 10px
+}
+.r_table,input,select{
+    padding: 5px;
+    
+    
+}
+button{
+    color: white;
+    background-color: #e08638;
+    padding: 10px 55px;
+    border: none;
+    border-radius: 3px;
+    
+}
+select{
+    width: 84%;
+}
