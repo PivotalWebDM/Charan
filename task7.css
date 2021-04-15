@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    transition: 0.3s ease-in-out;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.bg {
+    background-color: #37517e;
+    padding-bottom: 20px;
+    position: fixed;
+    z-index: 999;
+    opacity: 0.9;
+    width: 100%;
+}
+
+.bg-1 {
+    background-color: #37517e;
+    
+    padding-bottom: 50px;
+}
+
+.logo {
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+a {
+    padding-left: 5px;
+}
+
+li {
+    padding: 5px;
+
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.menu {
+    padding-left: 290px;
+}
+
+.mx-1{
+    color: #fff;
+    
+}
+#bttn {
+    border-radius: 55px;
+    border: none;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.font {
+    font-size: 30px;
+    color: #37517e;
+    font-weight: bold;
+}
+
+.stright {
+    width: 100px;
+    height: 2px;
+    border-radius: 50%;
+
+}
+
+.bg1 {
+    background-color: #f3f5fa;
+}
+
+.bg2 {
+    background-color: #f3f5fa;
+}
+
+.image1 {
+    width: 100px;
+    height: auto;
+    filter: grayscale(100%);
+
+}
+
+.image1:hover {
+    transition: 1s;
+    filter: grayscale(0%);
+    transform: scale(1.5);
+
+}
+
+.eum {
+    font-weight: 400;
+    font-size: 34px;
+    color: #37517e;
+}
+
+.tr {
+    text-align: right;
+}
+
+.bar1 {
+    width: 100%;
+    height: auto;
+    background-color: #37517e;
+
+
+}
+
+.skill {
+    width: 500px;
+    margin: 60px auto;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.skill .pag1 {
+    margin: 20px 0px;
+
+}
+
+.bar {
+
+    background: #353b48;
+    display: block;
+    height: auto;
+    border: 1px solid rgba(0, 0, 10, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+
+
+}
+
+.bar span {
+    width: auto;
+    height: 15px;
+    float: left;
+    background: #2187e7;
+}
+
+.css {
+    width: 90%;
+    animation: css 10s;
+}
+
+.javascript {
+    width: 70%;
+    animation: javascript 10s;
+}
+
+.photoshop {
+    width: 55%;
+    animation: photoshop 10s;
+}
+
+.html {
+    width: 100% ;
+    animation: html 10s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    75% {
+        width: 75%;
+    }
+
+    100% {
+        width: 100%;
+    }
+
+
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    100% {
+        width: 80%;
+    }
+
+
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    50% {
+        width: 25%;
+    }
+
+    100% {
+        width: 50%;
+    }
+
+
+}
+
+@keyframes photoshop {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 30%;
+    }
+
+
+}
+
+.title1 {
+    background-color: #f3f5fa;
+
+}
+
+.cen {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+
+}
+
+.cen:hover {
+    bottom: 20px;
+    transition: 2s;
+    transform: scale(1.5);
+}
+
+.border {
+    border-right: 20% solid #37517e;
+}
+
+.background {
+    background-image: url(image/background.jpg);
+    background-attachment: fixed;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.head {
+    color: #37517e;
+    font-weight: bold;
+
+}
+.imga .imga1{
+    margin-left: 20px;
+    border-radius: 50px;
+    padding: 5px;
+    width: 100px;
+    text-align: center
+        
+    
+}
+
+.imga .imga1:hover{
+    background-color: #47b2e4;
+    margin-left: 20px;
+    border-radius: 50px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    
+    
+}
+.imga .imga1 a:hover{
+    color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.image2 {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    display: block;
+    padding: 2px;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.image2:hover {
+    padding: 2px;
+    transform: scale(1.1);
+    margin: 5px;
+
+}
+.hr1{
+    width: 50px;
+    
+}
+
+.imgg{
+    width: 250px;
+    
+    
+}
+.team{
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    color: #37517e;
+}
+.under{
+    width: 35px;
+    height: auto;
+    
+}
+.d-flex{
+    display: flex;
+    width:250px
+}
+.card-title{
+    color: #37517e;
+}
+.i{
+    background-color:#f9fafa;
+    color: #61d061;
+    border-radius: 50%;
+    
+}
+
+.i:hover{
+    color: white;
+    background-color: #61d061;
+    border-radius: 50%;
+}
+.price{
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    color: #37517e;
+    
+    
+}
+
+.sup{
+
+    font-size: 35px;
+    color: #37517e;
+    font-weight: 400;
+}
+.sub{
+     font-size: 55px;
+    color: #37517e;
+    font-weight: 400;
+}
+.rc{
+    margin: 10px;
+    box-shadow: 0px 0px 15px;
+    
+}
+.rc:hover{
+   transform: scaley(1.1);
+
+}
+.pptext{
+    font-size: 15px;
+}
+.mark{
+     background-color:#f9fafa;
+    color: #61d061;
+    border-radius: 50%;
+    
+}
+.mark:hover{
+    color: white;
+    background-color: #61d061;
+    border-radius: 50%;
+}
+.price1{
+     font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    color: #37517e;
+}.price2{
+     font-size: 15pxx;
+    font-weight: bold;
+    position: relative;
+    color: #37517e;
+}
+.shadows{
+    box-shadow: 0px 0px 15px;
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    width: 100%;
+    
+}
+.subject input, .subject .input{
+    width: 100%;
+}
+.button{
+    text-align: center;
+}
+.sha-dow{
+    border-top: 3px solid #47b2e4;
+}
+
+.footer{
+    font-size: 14px;
+    background: #37517e;
+}
+.r{
+    float: right;
+}

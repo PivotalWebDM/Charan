@@ -1,0 +1,228 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times, Times New Roman', serif;
+
+}
+
+.div1 {
+    padding: 100px;
+    background-image: url(image/church.jpg);
+    background-attachment: fixed;
+    background-origin: padding-box;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+
+.title {
+    font-size: 60px;
+
+}
+
+.title,
+.clue {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+
+
+}
+
+#icon1 {
+    width: 30px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    padding: 5px;
+    color: white
+}
+
+.join {
+    padding: 15px;
+    background-color: tomato;
+    border: none;
+    color: #fff;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+
+
+
+}
+
+.join:hover {
+    background-color: #fff;
+    color: tomato;
+}
+
+.name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+}
+
+.sidebyside {
+
+    width: 90%;
+    height: auto;
+    text-align: center;
+    display: flex;
+
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.bar,
+.bar1 {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+
+
+}
+
+.bar1 {
+    color: white;
+    margin: 30px;
+    padding: 15px;
+
+
+}
+
+.name {
+    text-align: center;
+}
+
+img {
+    padding: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+b {
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+
+#icon2 {
+    width: 150px;
+    height: auto;
+    color: tomato;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.sp {
+    padding: 15px;
+    text-align: justify;
+}
+
+.time {
+    background-color: tomato;
+    padding: 0 15px;
+
+
+}
+
+.more {
+    border-style: solid;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: tomato;
+    padding: 10px 20px;
+    height: auto;
+}
+
+.more:hover {
+    color: tomato;
+    background-color: white;
+}
+
+.sidebyside1 {
+
+    width: 100%;
+    height: auto;
+    text-align: left;
+    display: flex;
+
+}
+
+.sidebyside2 {
+
+    width: auto;
+    height: 10%;
+    text-align: left;
+    display: flex;
+    background-color: tomato;
+    margin-top: 30px;
+
+
+
+
+}
+
+.sp1 {
+    margin-top: 0px;
+}
+
+.wel {
+
+    padding-top: 30px;
+    background-color: #e7e3e3;
+    padding: 20px;
+
+}
+
+.bar2 {
+    margin: 30px;
+    padding: 25px;
+    background-color: #ffffff;
+    width: 40%;
+
+}
+
+.bar3 {
+    color: white;
+    margin: 20px;
+    padding: 10px;
+
+
+
+}
+
+.color {
+    color: tomato;
+}
+
+.ima1 {
+    width: 90%;
+    height: 50%;
+
+    margin: 10px;
+}
+
+.event {
+    text-align: center;
+    margin-bottom: -40px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+.sidebyside4 {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
